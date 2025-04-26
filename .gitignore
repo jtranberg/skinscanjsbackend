@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Models and virtual envs
+model/
+venv/
+*.keras
+*.h5
+
+# System files
+.DS_Store
+.env
