@@ -89,8 +89,6 @@ app.post('/chatbot', async (req, res) => {
 
 
 // === Predict (via Python microservice) ===
-import axios from 'axios';
-import FormData from 'form-data';
 
 app.post('/predict', async (req, res) => {
   try {
